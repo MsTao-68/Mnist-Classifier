@@ -18,6 +18,7 @@ from sklearn.metrics import adjusted_rand_score
 from sklearn.metrics import accuracy_score
 from sklearn.cluster import KMeans # K平均聚类模型
 from sklearn.ensemble import RandomForestClassifier # 随机森林模型
+from sklearn.neighbors import KNeighborsClassifier # k邻近算法
 import time
 
 def readfile(file1, file2):     # 读取txt文件
